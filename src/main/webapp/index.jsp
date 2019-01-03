@@ -16,9 +16,8 @@
     <title>Danh sach khach hang</title>
   </head>
   <body>
-  <% List<Customer> customers = new ArrayList<Customer>(5); %>
-
   <%
+    List<Customer> customers = new ArrayList<Customer>(5);
     customers.add(new Customer("trung", 1995, "Nghe An", "link1"));
     customers.add(new Customer("hoang", 1991, "Ha Noi", "link2"));
     customers.add(new Customer("tung", 1999, "Hoa Binh", "link3"));
